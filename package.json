@@ -17,11 +17,15 @@
     "next": "9.4.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "styled-components": "^5.1.1",
+    "styled-normalize": "^8.0.7",
     "subscriptions-transport-ws": "^0.9.17",
     "use-auth0-hooks": "^0.7.0"
   },
   "devDependencies": {
     "@types/react": "^16.9.43",
+    "@types/styled-components": "^5.1.1",
+    "babel-plugin-styled-components": "^1.10.7",
     "prettier": "^2.0.5",
     "typescript": "^3.9.7"
   }
