@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@apollo/react-hooks": "^4.0.0",
+    "@auth0/nextjs-auth0": "^0.15.0",
     "apollo-boost": "^0.4.9",
     "apollo-link-schema": "^1.2.5",
     "apollo-link-ws": "^1.0.20",
@@ -16,7 +17,8 @@
     "next": "9.4.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "subscriptions-transport-ws": "^0.9.17"
+    "subscriptions-transport-ws": "^0.9.17",
+    "use-auth0-hooks": "^0.7.0"
   },
   "devDependencies": {
     "@types/react": "^16.9.43",

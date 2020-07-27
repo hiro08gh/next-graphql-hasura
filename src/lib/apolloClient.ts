@@ -9,7 +9,7 @@ function createApolloClient() {
     ssrMode: typeof window === 'undefined',
     link: new HttpLink({
       uri: process.env.NEXT_PUBLIC_ENDPOINT,
-      credentials: 'same-origin' // Additional fetch() options like `credentials` or `headers`
+      credentials: 'same-origin'
     }),
     cache: new InMemoryCache({
       typePolicies: {
